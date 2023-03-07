@@ -1,8 +1,12 @@
-#header{
+/* #header{
     background-color: rgb(217, 215, 215);
     height: 90px;
     text-align: center;
 
+}
+
+.cardCtn {
+    display: flex;
 }
 
 .card-header{
@@ -15,4 +19,4 @@
 }
 .fa-coffee{
     font-size: 25px;
-}
+} */

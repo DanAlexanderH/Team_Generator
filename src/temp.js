@@ -9,11 +9,19 @@ const generateHTML = function(groupString) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Team Generator</title>
+    <style>
+    h1 {
+        background-color: rgb(178, 180, 182);
+        height: 90px;
+    text-align: center;
+    }
+    
+</style>
 
 </head>
 <body>
 <h1 id="header">Team Generator</h1>
-<div class="cardCtn">
+<div style="display: flex;" class="cardCtn">
     ${groupString}
 </div>
 </body>
@@ -36,7 +44,7 @@ const makeCard = function (status) {
     }
 
     return `<div class="card" style="width: 19rem;">
-<div class="card-header">
+<div  style="background-color: rgb(138, 184, 231);" class="card-header">
     <h2>${status.name}</h2>
     ${icon}
     <p>${status.title}</p>    
