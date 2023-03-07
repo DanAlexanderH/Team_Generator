@@ -21,7 +21,7 @@ const generateHTML = function(groupString) {
 </head>
 <body>
 <h1 id="header">Team Generator</h1>
-<div style="display: flex;" class="cardCtn">
+<div style="display: flex; justify-content: space-around;" class="cardCtn">
     ${groupString}
 </div>
 </body>
@@ -45,7 +45,7 @@ const makeCard = function (status) {
 
     return `<div class="card" style="width: 19rem;">
 <div  style="background-color: rgb(138, 184, 231);" class="card-header">
-    <h2>${status.name}</h2>
+    <h2 style="color: #fff;">${status.name}</h2>
     ${icon}
     <p>${status.title}</p>    
 </div>
