@@ -25,6 +25,6 @@ To use this program, node.js must be installed as well as the inquirer npm on ve
 <br>
 <br>
 <br>
-To watch the code being used in real time please watch the youtube video that I uploaded using this link. [Insert Link]
+To watch the code being used in real time please watch the youtube video that I uploaded using this link. <a href="https://youtu.be/PrExaFl9pYs" target="_blank">Youtube Video</a>
 
 ![Alt text](/lib/Screenshot%202023-03-08%20at%203.06.26%20PM.png "Deployed Website Screenshot")
