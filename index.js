@@ -1,11 +1,11 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const Employee = require("./lib/Employee")
+const Employee = require("./lib/Employee");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
-const fullHtml = require("./src/temp")
+const fullHtml = require("./src/temp");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 let groupBlock = [];
